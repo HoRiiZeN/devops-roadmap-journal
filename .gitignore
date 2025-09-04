@@ -1,0 +1,8 @@
+# common
+.DS_Store
+Thumbs.db
+*.log
+.env
+__pycache__/
+.ipynb_checkpoints/
+templates/
