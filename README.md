@@ -5,7 +5,6 @@ The structure follows a weekly log, where I track what I studied, hands-on pract
 
 ## Structure
 - `journal/` → Weekly notes (e.g. `week-01.md`, `week-02.md`)
-- `templates/` → Reusable templates for daily logs // Ignored folder in .gitignore
 - `projects/` → Small practice labs or experiments (e.g. setting up a web server, automating tasks)
  
 ## Goals
