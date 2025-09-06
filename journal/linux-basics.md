@@ -9,6 +9,8 @@
 ### Day 1
 Learned about Linux history and different distros. Linux has tons of distros and choosing the right one depends on what you want to do (Ubuntu for beginners, CentOS for servers, RHEL for enterprise etc..).
 
+---
+
 ### Day 2
 Practiced shell navigation cmds (pwd, cd, mkdir, touch, cat, cp, mv, rm). Learned I/O redirection:  
 - `>` (overwrite): `echo hello > file.txt`  
@@ -16,6 +18,8 @@ Practiced shell navigation cmds (pwd, cd, mkdir, touch, cat, cp, mv, rm). Learne
 - `2>` (errors): `ls /notfound 2> error.txt`  
 - `&>` / `&>>` (stdout+stderr): `command &> out.txt` or `command &>> out.txt`  
 - `tee` (write + display): `echo hello | tee file.txt`
+
+---
   
 ### Day 3
 Explored Linux variables:
@@ -34,6 +38,8 @@ The `set -o allexport` command automatically exports any new variables.
 For permanent settings between sessions:
 - `~/.bashrc` for Bash shell users
 - `~/.zshrc` for Zsh shell users
+
+---
 
 ### Day 4
 Explored essential text-processing commands:
@@ -55,6 +61,8 @@ Started regex. My head hurt. Will try again later.
 
 Completed [OverTheWire Bandit levels 0-5](https://github.com/HoRiiZeN/overthewire-bandit-notes).
 
+---
+
 ### Day 5
 Learned a bit about text editors like Vim, but I'm sticking with Nano for now since I'm more comfortable with it. That wrapped up Advanced Text-Fu, and I started the User Management lesson.  
 
@@ -65,6 +73,8 @@ Practiced the basics of users and groups, including the full user lifecycle: cre
 - `sudo` : run commands as superuser/root
 - `su user` : switch to another user account :loads their shell:
 - `su - user` : switch to another user and load that user's complete environment, including their home directory, PATH variables, and other shell configurations
+
+---
 
 ### Day 6
 Continued practicing user administration:
@@ -82,16 +92,26 @@ Also, I learned how to:
 - Change file ownership with `chown`
 - Modify permissions with `chmod` (using numeric values):
     - `755`: owner has full rights (7 → rwx), group has read/execute (5 → r-x), others also get read/execute (5 → r-x)
-    - `750`: would block "others" completely (0 → ---)
+    - `750`: would block "others" completely (0 → ---)  
+
+---
 
 ### Day 7
 Since I haven’t written in this journal until now, I decided to catch up and log Day 1 through Day 6 today."
+
+---
+
 ### Day 8
 *Yet to come*
 
-## Resources Used
-- 
+---
 
+## Resources Used
+- [Linux Journey](https://linuxjourney.com/) - My main Linux learning resource
+- [LabEx](https://labex.io/learn) ⭐ – Hands-on labs that reinforced my understanding. *(You get 3 sessions a day, each one is a 60-minute session for free.)*  
+- [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) - CTF-style challenges to evaluate my learning <br>
+
+> *⭐ Highly recommended*
 ## When Complete
 **Total days:** : *TBA*  
 **Quick thoughts:**  : *TBA*
