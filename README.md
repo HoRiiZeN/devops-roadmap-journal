@@ -1,10 +1,10 @@
 # DevOps Roadmap Journal
 
 This repository documents my self-learning journey into **Linux, Web Fundamentals, DevOps, and Cloud**.  
-The structure follows a weekly log, where I track what I studied, hands-on practice, and notes.
+The structure follows a topic-based approach, where I track my progress through each subject at my own pace.
 
 ## Structure
-- `journal/` → Weekly notes (e.g. `week-01.md`, `week-02.md`)
+- `journal/` → Topic-based learning logs (e.g. `linux-basics.md`, `docker-fundamentals.md`, `git-basics.md`)
 - `projects/` → Small practice labs or experiments (e.g. setting up a web server, automating tasks)
  
 ## Goals
@@ -14,4 +14,4 @@ The structure follows a weekly log, where I track what I studied, hands-on pract
 
 ---
 
-✍️ *This is a work in progress updated daily, structured weekly.*
+✍️ *I’ll try to keep this repo updated whenever I can*
