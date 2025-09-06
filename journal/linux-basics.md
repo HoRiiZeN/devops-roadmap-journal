@@ -90,10 +90,12 @@ Continued practicing user administration:
 Also, I learned how to:
 - Check permissions using the `ls -l` command
 - Change file ownership with `chown`
-- Modify permissions with `chmod` (using numeric values):
+- Modify permissions with `chmod` (using numeric and alphabetic values):
     - `755`: owner has full rights (7 → rwx), group has read/execute (5 → r-x), others also get read/execute (5 → r-x)
     - `750`: would block "others" completely (0 → ---)  
-
+    - `u+x`: adds execute permission for the user/owner
+    - `u-x`: removes execute permission for the user/owner
+    - `ug+r`: adds read permission for user and group
 ---
 
 ### Day 7
@@ -108,7 +110,7 @@ Since I haven’t written in this journal until now, I decided to catch up and l
 
 ## Resources Used
 - [Linux Journey](https://linuxjourney.com/) - My main Linux learning resource
-- [LabEx](https://labex.io/learn) ⭐ – Hands-on labs that reinforced my understanding. *(You get 3 sessions a day, each one is a 60-minute session for free.)*  
+- [LabEx](https://labex.io/learn) ⭐ – Hands-on labs that reinforced my understanding. *(You get 3 sessions a day, each one is a 60-minute session for free. use them wisely)*  
 - [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) - CTF-style challenges to evaluate my learning <br>
 
 > *⭐ Highly recommended*
