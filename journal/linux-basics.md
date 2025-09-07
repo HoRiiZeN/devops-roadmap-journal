@@ -2,8 +2,7 @@
 
 **Started:** Aug 29, 2025  
 **Status:** In Progress  
-**Estimated completion:** Sept 7, 2025
-
+**Estimated completion:** ~~Sep 7, 2025~~ Sep 8, 2025  
 ## Study Log
 
 ### Day 1
@@ -104,7 +103,49 @@ Since I haven’t written in this journal until now, I decided to catch up and l
 ---
 
 ### Day 8
+Learned about umask (default permission mask for new files and directories) and special permissions:
 
+- SetUID (SUID): allows a program to run with the file owner's privileges (example: `passwd`). Applies only to executable files and is ignored for scripts on most modern systems for security reasons. Set with `chmod u+s file` or `chmod 4755 file`.
+- SetGID (SGID): for files, causes execution with the file's group privileges; for directories, new files inherit the directory's group. Set with `chmod g+s file` or `chmod 2755 file`.
+- Sticky bit: meaningful only on directories; it ensures that only the file owner or root can remove files inside the directory. Set with `chmod +t dir` or `chmod 1755 dir`.
+
+Finished the permissions section and started processes:
+
+- Basic inspection
+    - `ps` shows processes for the current shell
+    - `ps aux` lists all system processes with details (USER, PID, %CPU, %MEM)
+    - `ps l` shows long format
+    - `top` provides a real-time process monitor
+- Controlling processes
+    - `kill <PID>` sends the default SIGTERM
+    - `kill -9 <PID>` sends SIGKILL to force termination (cannot be caught or ignored; no cleanup)
+    - Signals:
+        - `SIGHUP` (hangup): sent when a controlling terminal closes; daemons often interpret it as "reload config"
+        - `SIGINT` (interrupt, Ctrl+C): interactive interrupt; can be caught to perform cleanup before exiting
+        - `SIGTERM` (terminate): polite termination request; default for `kill <PID>`; can be caught for graceful shutdown
+        - `SIGKILL` (kill, 9): immediate, uncatchable kill; use only when a process won't respond to SIGTERM
+        - `SIGSTOP` (stop): pause a process (uncatchable); resume with `SIGCONT`
+    - Notes:
+        - Prefer `SIGTERM` for normal shutdowns so processes can clean up; use `SIGKILL` as last resort.
+        - You can send by name: `kill -SIGTERM <PID>` or by number: `kill -15 <PID>`.
+    - Each process has a PID and PPID; init or systemd adopts orphans
+    - `_exit` ends a process; parent should `wait` to collect status
+    - Orphan: parent dies and process is adopted by init/systemd
+    - Zombie: process finished but parent did not `wait`; the process remains as a zombie until the parent collects its exit status with `wait`; if the parent never does, init/systemd will eventually reap the zombie.
+- Priority and niceness
+    - Start a command with adjusted niceness: `nice -n <value> command`
+    - Change a running process priority: `renice <value> <PID>`
+- States and internals
+    - Common states: R (running), S (sleeping), D (uninterruptible sleep), Z (zombie), T (stopped)
+    - `/proc` is a virtual filesystem for process and kernel info, e.g. `/proc/<PID>/status`, `/proc/cpuinfo`
+- Job control in the shell
+    - Run in background with `&`
+    - List jobs with `jobs`
+    - Resume in background with `bg`
+    - Bring to foreground with `fg`
+    - Reference jobs with `%<job>` (example: `kill %1`)
+
+Practiced examples: setting umask, toggling SUID/SGID/sticky bits, inspecting `/proc` entries, killing and renicing processes to reinforce concepts.
 
 ---
 
