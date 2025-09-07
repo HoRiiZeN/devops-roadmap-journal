@@ -7,7 +7,7 @@
 ## Study Log
 
 ### Day 1
-Learned about Linux history and different distros. Linux has tons of distros and choosing the right one depends on what you want to do (Ubuntu for beginners, CentOS for servers, RHEL for enterprise etc..).
+Learned about Linux history and different distros. Linux has tons of distros, and choosing the right one depends on what you want to do (Ubuntu for beginners, CentOS for servers, RHEL for enterprise, etc).
 
 ---
 
@@ -23,7 +23,7 @@ Practiced shell navigation cmds (pwd, cd, mkdir, touch, cat, cp, mv, rm). Learne
   
 ### Day 3
 Explored Linux variables:
-- Local variables (exist only in current shell)
+- Local variables (exist only in the current shell)
 - Environment variables (passed down to child processes)
 
 Common variable commands:
@@ -31,7 +31,7 @@ Common variable commands:
 - `export VAR=value` to create environment variables  
 - `env` to list all environment variables
 
-Child shell inheritance test: Variables created in parent shell are available in bash subshells only when exported. Non-exported variables stay inaccessible to child processes.
+Child shell inheritance test: Variables created in the parent shell are available in bash subshells only when exported. Non-exported variables stay inaccessible to child processes.
 
 The `set -o allexport` command automatically exports any new variables.
 
@@ -90,7 +90,7 @@ Continued practicing user administration:
 Also, I learned how to:
 - Check permissions using the `ls -l` command
 - Change file ownership with `chown`
-- Modify permissions with `chmod` (using numeric and alphabetic values):
+- Modify permissions with `chmod` (using numeric and symbolic ways):
     - `755`: owner has full rights (7 → rwx), group has read/execute (5 → r-x), others also get read/execute (5 → r-x)
     - `750`: would block "others" completely (0 → ---)  
     - `u+x`: adds execute permission for the user/owner
@@ -104,7 +104,7 @@ Since I haven’t written in this journal until now, I decided to catch up and l
 ---
 
 ### Day 8
-*Yet to come*
+
 
 ---
 
