@@ -16,13 +16,12 @@ The structure follows a topic-based approach, where I track my progress through 
 ## Learning Progress
 
 **In Progress**
-- [Linux Basics & Command Line](journal/linux-basics/notes.md) | [Exercises](journal/linux-basics/exercises/README.md)
+- [Master Markdown & Documentation](journal/master-markdown/notes.md)
 
 **Completed**
-- *Nothing yet*
+- [Linux Basics & Command Line](journal/linux-basics/notes.md) | [Exercises](journal/linux-basics/exercises/README.md)
 
 **Planned**
-- Master Markdown & Documentation
 - Git & GitHub Fundamentals
 - *W.I.P*
 

@@ -171,3 +171,6 @@ See [Exercises](exercises/README.md) for all hands-on practice.
 **Total days:** : 12 days (9 days of study + 3 days of breaks)
 
 **Quick thoughts:** : I really enjoyed learning the basics of Linux and command line. My previous experience definitely helped, but I still learned a lot of new things.
+
+## Next Topic → [Master Markdown & Documentation](../master-markdown/notes.md) 
+
