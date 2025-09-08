@@ -27,4 +27,5 @@ The structure follows a topic-based approach, where I track my progress through 
 - *W.I.P*
 
 ---
-✍️ *I aim to update this repo daily.*
+✍️ *I aim to update this repo daily.*  
+📝 *Documentation structure revised with GitHub Copilot assistance.*
