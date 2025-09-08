@@ -148,6 +148,12 @@ Finished the permissions section and started processes:
 Practiced examples: setting umask, toggling SUID/SGID/sticky bits, inspecting `/proc` entries, killing and renicing processes to reinforce concepts.
 
 ---
+### Day 9
+w.i.p
+
+
+## Exercises & Projects
+See [Exercises](exercises/README.md) for all hands-on practice.
 
 ## Resources Used
 - [Linux Journey](https://linuxjourney.com/) - My main Linux learning resource
@@ -155,6 +161,7 @@ Practiced examples: setting umask, toggling SUID/SGID/sticky bits, inspecting `/
 - [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) - CTF-style challenges to evaluate my learning <br>
 
 > *⭐ Highly recommended*
+
 ## When Complete
 **Total days:** : *TBA*  
 **Quick thoughts:**  : *TBA*

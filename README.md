@@ -16,7 +16,7 @@ The structure follows a topic-based approach, where I track my progress through 
 ## Learning Progress
 
 **In Progress**
-- [Linux Basics & Command Line](journal/linux-basics/notes.md)
+- [Linux Basics & Command Line](journal/linux-basics/notes.md) | [Exercises](journal/linux-basics/exercises/README.md)
 
 **Completed**
 - *Nothing yet*
