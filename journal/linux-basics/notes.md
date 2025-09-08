@@ -1,7 +1,7 @@
 # Linux Basics & Command Line
 
 **Started:** Aug 29, 2025  
-**Status:** In Progress  
+**Status:** Finished  
 **Estimated completion:** ~~Sep 7, 2025~~ Sep 8, 2025  
 ## Study Log
 
@@ -149,7 +149,11 @@ Practiced examples: setting umask, toggling SUID/SGID/sticky bits, inspecting `/
 
 ---
 ### Day 9
-w.i.p
+Completed overthewire Bandit levels 6-10.  
+
+Learned about bash scripting basics: shebang (`#!/bin/bash`), comments (`#`), variables, and script execution permissions (`chmod +x script.sh`).
+
+Made my first bash script that lists all users, shows disk usage, and logs with a timestamp. Check the exercises section down below for details.
 
 
 ## Exercises & Projects
@@ -157,12 +161,13 @@ See [Exercises](exercises/README.md) for all hands-on practice.
 
 ## Resources Used
 - [Linux Journey](https://linuxjourney.com/) - My main Linux learning resource
-- [LabEx](https://labex.io/learn) ⭐ – Hands-on labs that reinforced my understanding. *(You get 3 sessions a day, each one is a 60-minute session for free. use them wisely)*  
-- [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) - CTF-style challenges to evaluate my learning <br>
+- [LabEx](https://labex.io/learn) ⭐ – Hands-on labs that reinforced my understanding. *(You get 3 sessions a day, each one is a 60-minute session for free. use them wisely)*
+- [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) – CTF-style challenges to evaluate my learning
+- [Learn Shell](https://www.learnshell.org/) ⭐ – Shell scripting tutorials with interactive exercises
 
-> *⭐ Highly recommended*
+> *⭐ I highly recommend*
 
-## When Complete
-**Total days:** : *TBA*  
-**Quick thoughts:**  : *TBA*
+## Completion Overview
+**Total days:** : 12 days (9 days of study + 3 days of breaks)
 
+**Quick thoughts:** : I really enjoyed learning the basics of Linux and command line. My previous experience definitely helped, but I still learned a lot of new things.
