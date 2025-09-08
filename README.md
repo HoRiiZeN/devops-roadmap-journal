@@ -4,9 +4,10 @@ This repository documents my self-learning journey into **Linux, Web Fundamental
 The structure follows a topic-based approach, where I track my progress through each subject at my own pace.
 
 ## Structure
-- `journal/` → Topic-based learning logs (e.g. `linux-basics.md`, `git-and-github-fundamentals.md`, `master-markdown.md` etc..)
-- `projects/` → Small practice labs or experiments (e.g. setting up a web server, automating tasks)
- 
+- `journal/` → Topic-based learning folders (e.g. `linux-basics/`, `master-markdown/`)
+  - Each topic contains `notes.md` (main learning content) and `exercises/` (hands-on practice)
+- `templates/` → Reusable templates for documentation (personal drafts for my private use only)
+
 ## Goals
 - Build a strong foundation in Linux, scripting, Git, and cloud
 - Document progress clearly and consistently
@@ -15,22 +16,15 @@ The structure follows a topic-based approach, where I track my progress through 
 ## Learning Progress
 
 **In Progress**
-- [Linux Basics & Command Line](journal/linux-basics.md)
+- [Linux Basics & Command Line](journal/linux-basics/notes.md)
 
 **Completed**
 - *Nothing yet*
 
 **Planned**
 - Master Markdown & Documentation
-- Git & GitHub
-- Web Server Fundamentals
-- API Basics
-- Python Fundamentals
-- ...
-- ..    
-- .
-- CI/CD Pipeline Basics
-- Cloud Platforms (AWS/Azure)
+- Git & GitHub Fundamentals
+- *W.I.P*
 
 ---
 ✍️ *I aim to update this repo daily.*
