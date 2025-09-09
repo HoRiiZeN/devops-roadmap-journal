@@ -7,7 +7,7 @@
 ## Study Log
 
 ### Day 1
-[Walo]
+Got introduced to Markdown, a super simple way of formatting text without dealing with heavy HTML. It’s all about using symbols like # for headings, * for lists, > for quotes, etc.
 
 ---
 
@@ -45,7 +45,7 @@
 See [Exercises](exercises/README.md) for all hands-on practice.
 
 ## Resources Used
-- [Resource 1] – [Description]
+- [Resource ] – [Description]
 - [Resource 2] – [Description]  
 - [Resource 3] – [Description]
 
