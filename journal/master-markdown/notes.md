@@ -45,11 +45,9 @@ Got introduced to Markdown, a super simple way of formatting text without dealin
 See [Exercises](exercises/README.md) for all hands-on practice.
 
 ## Resources Used
-- [Resource ] – [Description]
-- [Resource 2] – [Description]  
-- [Resource 3] – [Description]
-
-> *⭐ I highly recommend*
+- [Markdown Guide](https://www.markdownguide.org/getting-started/) - Everything you need to learn Markdown
+- [Dillinger](https://dillinger.io/) - Online Markdown editor
+- [StackEdit](https://stackedit.io/) ⭐ - Another great online Markdown editor (*better than Dillinger imo*)
 
 ## Completion Overview
 **Total days:** [X days (Y days of study + Z days of breaks)]
