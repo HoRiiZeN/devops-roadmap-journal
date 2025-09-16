@@ -12,7 +12,18 @@ Got introduced to Markdown, a super simple way of formatting text without dealin
 ---
 
 ### Day 2
-[Walo]
+Explored core Markdown syntax and practiced everything in one doc. Key bits I used:
+- Headings: `#` to `######`
+- Emphasis: `*italic*`, `**bold**`, `~~strike~~`
+- Lists: `-` unordered, `1.` ordered, `- [ ]` tasks
+- Links & images: `[text](https://...)`, `![alt](img.png)`
+- Code: inline ``code`` and mention of fenced blocks
+- Tables: `| col | col |` with `:---` alignment
+- Blockquotes: `>` quote lines
+- Horizontal rules: `---`, `***`, or `___`
+
+
+Wrote a [readme-exercise](exercises/01-readme-exercise.md), using headers, lists, links, code blocks, and tables.
 
 ---
 
@@ -52,6 +63,6 @@ See [Exercises](exercises/README.md) for all hands-on practice.
 ## Completion Overview
 **Total days:** [X days (Y days of study + Z days of breaks)]
 
-**Quick thoughts:** [salam cv]
+**Quick thoughts:** [WIP: As easy it might seem, mastering Markdown takes practice and patience. I feel more confident now in creating well-structured docs, but it's still a journey.]
 
 ## Next Topic → [Git & GitHub Fundamentals](../next-topic/notes.md)
