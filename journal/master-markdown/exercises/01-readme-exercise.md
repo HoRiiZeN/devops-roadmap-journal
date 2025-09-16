@@ -57,6 +57,9 @@ fi
 - K-Pop
 - Raï
 
+## Current profile picture
+
+![Profile Picture](https://github.com/horiizen.png?size=60)
 ## Final Thoughts
 
 I think I should start adding some emojis to my README files. I see a lot of people doing that. While it does make the content more engaging, it also makes me think of AI-generated content. Maybe I can add a few here and there, but not too many. 😂😂😂😂😂
