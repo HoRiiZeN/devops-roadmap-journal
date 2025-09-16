@@ -15,9 +15,9 @@ Did you know that cats are great pets? They are independent, playful, and can be
 | Mushrooms      | 8           |
 | Onions         | 4           |
 | Sausage        | 9           |
-| Bacon       | 0<sup>[1]</sup>      |)* |
+| Bacon       | 0<sup>[1]</sup>      |
 
-<sup>[1]</sup> *bacon haram*.
+<sup>[1]</sup> *Bacon haram*.
 
 ## Script that recommends the perfect phone brand
 
@@ -49,10 +49,14 @@ fi
 - Vocaloid
 - J-Pop
 - Anime
--  Hyperpop
+- Hyperpop
 - Pop
 - Glitch
 - J-Rock
 - Speedcore
 - K-Pop
 - Raï
+
+## Final Thoughts
+
+I think I should start adding some emojis to my README files. I see a lot of people doing that. While it does make the content more engaging, it also makes me think of AI-generated content. Maybe I can add a few here and there, but not too many. 😂😂😂😂😂
