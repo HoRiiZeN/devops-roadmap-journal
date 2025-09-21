@@ -1,3 +1,7 @@
+  # ⚠️ Update
+
+  ### Daily logging started to feel like a chore. I’m taking a break from writing updates to focus on learning without streak pressure.
+
 # DevOps Roadmap Journal
 
 This repository documents my self-learning journey into **Linux, Web Fundamentals, DevOps, and Cloud**.  
